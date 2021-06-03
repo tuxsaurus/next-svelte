@@ -10,7 +10,7 @@
 </script>
 
 <main>
-  <h1>Svelte + Node.js API</h1>
+  <h1>Bagulho doido!</h1>
   <h2>
     Deployed with
     <a href="https://vercel.com/docs" target="_blank" rel="noreferrer noopener">
@@ -22,7 +22,8 @@
     <a
       href="https://github.com/vercel/vercel/tree/main/examples/svelte"
       target="_blank"
-      rel="noreferrer noopener">
+      rel="noreferrer noopener"
+    >
       This project
     </a>
     is a
@@ -44,5 +45,5 @@
   </p>
   <br />
   <h2>The date according to Node.js is:</h2>
-  <p>{date ? date : 'Loading date...'}</p>
+  <p>{date ? date : "Loading date..."}</p>
 </main>
