@@ -65,7 +65,7 @@
 
 <div>
   <!-- <p>Cidade: {cidade}</p> -->
-  
+
   <p>Cidade <span>{cidade}</span></p>
   <!-- {x} -->
   <!-- <span /> -->

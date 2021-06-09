@@ -21,16 +21,16 @@
   // let isMailValid = false
 
   $: if (email) {
-    console.log("$: if (email)")
+    console.log("$: if (email)");
 
-    console.log(isEmailValid)
+    console.log(isEmailValid);
     ValidateEmail(email);
   }
 
   let pass = "";
 
   $: if (pass) {
-    console.log(pass)
+    console.log(pass);
     if (pass.length > 5) {
       isSinginButtonDisabled = false;
     }
@@ -53,6 +53,7 @@
 </script>
 
 <form>
+  <h1 style="text-align: center;">Autenticação</h1>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
     <input
@@ -89,7 +90,9 @@
     />
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
-  <button on:click={handleClick} type="submit" class="btn btn-primary">Submit</button>
+  <button on:click={handleClick} type="submit" class="btn btn-primary"
+    >Submit</button
+  >
 </form>
 
 <style lang="scss">

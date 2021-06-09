@@ -2,7 +2,7 @@
   import { Route } from "svelte-navigator";
   import Auth from "../Auth/Auth.svelte";
   import Home from "../Pages/Home.svelte";
-  import About from "../Pages/About.svelte";
+  import About from "../Pages/About/About.svelte";
 
 </script>
 
