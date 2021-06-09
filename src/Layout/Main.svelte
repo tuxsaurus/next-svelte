@@ -2,7 +2,11 @@
   import { Route } from "svelte-navigator";
   import Auth from "../Auth/Auth.svelte";
   import Home from "../Pages/Home.svelte";
+  import About from "../Pages/About.svelte";
+
 </script>
+
+const routes = [["auth", Auth]]
 
 <main>
   <Route path="/">
@@ -11,6 +15,10 @@
 
   <Route path="/auth">
     <Auth />
+  </Route>
+
+  <Route path="/about">
+    <About />
   </Route>
 </main>
 

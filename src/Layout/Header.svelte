@@ -7,6 +7,8 @@
 
   import Home from "svelte-material-icons/Home.svelte";
   import Account from "svelte-material-icons/Account.svelte";
+  import Information from "svelte-material-icons/Information.svelte";
+
 </script>
 
 <nav class="navbar fixed-top navbar-light bg-light">
@@ -22,6 +24,11 @@
       <Link class="topnav-icon icon" to="/">
         <button type="button" class="btn btn-link">
           <Home {width} {height} />
+        </button>
+      </Link>
+      <Link class="topnav-icon icon" to="/about">
+        <button type="button" class="btn btn-link">
+          <Information {width} {height} />
         </button>
       </Link>
       <Link class="topnav-icon icon" to="/auth">
