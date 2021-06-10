@@ -1,0 +1,27 @@
+{
+  "page": {
+    "shop": {
+      "title": "StoreX",
+      "nav": "Store"
+    }
+  },
+  "shop": {
+    "title": "StoreX",
+    "nav": "Store"
+  },
+  "user": {
+    "profile": {
+      "password": "Password",
+      "address": "Address",
+      "address2": "Address 2",
+      "city": "City",
+      "state": "State",
+      "zip": "ZIP",
+      "nav": "Store"
+    }
+  },
+  "about": { "title": "About" },
+  "page_title": "Shopping",
+  "sign_in": "Sign in",
+  "sign_up": "Sign up"
+}

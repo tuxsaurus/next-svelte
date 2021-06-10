@@ -1,0 +1,27 @@
+{
+  "page": {
+    "shop": {
+      "title": "Loja Y",
+      "nav": "Store"
+    }
+  },
+  "shop": {
+    "title": "Loja YY",
+    "nav": "Store"
+  },
+  "user": {
+    "profile": {
+      "password": "Senha",
+      "address": "Logradouro",
+      "address2": "Referência",
+      "city": "Cidade",
+      "state": "Estado",
+      "zip": "CEP",
+      "nav": "Store"
+    }
+  },
+  "about": { "title": "About" },
+  "page_title": "Shopping",
+  "sign_in": "Sign in",
+  "sign_up": "Sign up"
+}

@@ -1,0 +1,42 @@
+{
+  "updated" : {
+    "date": "11/14/2013 00:00"
+  },
+  "list": [
+    {
+      "id": "exposeJupyterLan",
+      "title": "Expor Jupyter na Rede Interna",
+      "date": "2021/05/23",
+      "content": "",
+      "tags": ["linux", "mysql", "systemd"],
+      "src": "./lang/bash/arithmeticExpansion/py/exporJupyterRedeInterna.md",
+      "img": "blog/lang/bash/arithmeticExpansion/py/jupyter-blog-card-img.png"
+    },
+    {
+      "id": "avoidMysqlAutostart",
+      "title": "Impedir inicialização do Mysql no boot",
+      "date": "2021/05/13",
+      "content": "",
+      "tags": ["linux", "mysql", "systemd"],
+      "src": "./linux/db/mysql/impedirInicializacaoMysqlDuranteBoot.md",
+      "img": "blog/linux/db/mysql/mysqlBlogPostLogo.png"
+    },
+    {
+      "id": "apache_vhost",
+      "title": "Apache Virtual Host",
+      "date": "2021/05/03",
+      "content": "",
+      "tags": ["linux", "apache", "virtual host", ""],
+      "src": "devops/virtualHost/virtualHosts.md",
+      "img": "blog/devops/virtualHost/apachevh.png"
+    },
+    {
+      "id": "Bash_Arithmetic_Expansion",
+      "title": "Bash Expansão Aritmética",
+      "date": "2021/04/03",
+      "content": "",
+      "src": "lang/bash/arithmeticExpansion/arithmeticExpansion.md",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Antu_bash.svg/240px-Antu_bash.svg.png"
+    }
+  ]
+}

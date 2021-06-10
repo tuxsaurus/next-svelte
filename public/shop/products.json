@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "id": "cafe-em-graos",
+      "name": "Café em Grãos",
+      "title": "Café em Grãos",
+      "text": "Café em Grãos Moído na Hora!",
+      "price": "36,00/kg",
+      "unity": "kg",
+      "img": "img/coffe/coffe-01.jpg",
+      
+    },
+    {
+      "id": "tshirt",
+      "name": "Tshirt",
+      "title": "Camisa Tshirt",
+      "text": "Escolha o modelo,tipo de malha, tamanhos e customize com sua estampa!",
+      "text": "Camisa Tshirt Modelo Masculino Manga Curta Reforço Viés Ombro a Ombro Malha 100% Algodão Penteada",
+      "price": "25,00",
+      "unity": "un",
+      "img": "img/products/dept/clothes/tshirt/a/shadow-0x900.min.png"
+    },
+    {
+      "id": "mascara",
+      "name": "Mask",
+      "title": "Máscara de Proteção",
+      "text": "Máscara de proteção, dupla camada, 100% algodão.",
+      "price": "6,00",
+      "unity": "un",
+      "img": "img/products/dept/clothes/mask/mask.png"
+    },
+    {
+      "id": "grafica-adesivos",
+      "name": "Adesivo",
+      "title": "Adesivos",
+      "text": "Adesivos para grandes e pequenos formatos com. Diferentes opções de acabamento.",
+      "price": "90,00/m²",
+      "unity": "m²",
+      "img": "shop/products/grafica/adesivos/adesivo-mockup.png"
+    },
+    {
+      "id": "grafica-print-sublimatica",
+      "name": "Impressão Digital - Tinta Sublimática",
+      "title": "Impressão Digital",
+      "text": "Tinta Sublimática",
+      "price": "15,00/m²",
+      "unity": "m²",
+      "img": "shop/products/grafica/print/sublimatica/EpsonSureColorF6200.jpg"
+    }
+  ]
+}

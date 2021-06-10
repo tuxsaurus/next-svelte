@@ -1,0 +1,12 @@
+{
+  "page": {
+    "shop": {
+      "title": "Store",
+      "nav": "Store"
+    }
+  },
+  "about": { "title": "About" },
+  "page_title": "Shopping",
+  "sign_in": "Sign in",
+  "sign_up": "Sign up"
+}

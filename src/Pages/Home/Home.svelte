@@ -59,27 +59,54 @@
       console.log(error);
     }
   }
+
+  import { onMount } from "svelte";
+  import Shop from "../../Shop/Shop.svelte";
+  import Hero from "./Hero.svelte";
+
+  export let date;
+
+  onMount(async () => {
+    const res = await fetch("/api/date");
+    const newDate = await res.text();
+    date = newDate;
+  });
 </script>
 
-<h1>Home</h1>
+<div class="home">
+  <h1>Home</h1>
 
-<div>
-  <!-- <p>Cidade: {cidade}</p> -->
+  <Hero />
 
-  <p>Cidade <span>{cidade}</span></p>
-  <!-- {x} -->
-  <!-- <span /> -->
-  <p>hoje</p>
-  <p>Temp min <span>{temp_min_hoje}</span></p>
-  <p>Temp máx <span>{temp_max_hoje}</span></p>
+  <div>
+    <!-- <p>Cidade: {cidade}</p> -->
+    {date}
+    <p>Cidade <span>{cidade}</span></p>
+    <!-- {x} -->
+    <!-- <span /> -->
+    <p>hoje</p>
+    <p>Temp min <span>{temp_min_hoje}</span></p>
+    <p>Temp máx <span>{temp_max_hoje}</span></p>
+    <h1>Home Hero!@</h1>
 
-  <!-- 
-  
+    <Shop />
 
+    <h1>Blog</h1>
+
+    <!-- 
   {temp_min_amanha}
   {temp_max_amanha} -->
+  </div>
+
+  <button on:click={handleClick} type="submit" class="btn btn-primary">
+    Submit
+  </button>
 </div>
 
-<button on:click={handleClick} type="submit" class="btn btn-primary">
-  Submit
-</button>
+<style lang="scss">
+  .home {
+    width: 100%;
+    max-width: 1240px;
+    /* background-color: red; */
+  }
+</style>
