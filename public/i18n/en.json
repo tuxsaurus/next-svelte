@@ -6,8 +6,11 @@
     }
   },
   "shop": {
-    "title": "StoreX",
-    "nav": "Store"
+    "title": "Store",
+    "nav": "Store",
+    "productBrowser": "BrowserX",
+    "viewer": "Viewer",
+    "cart": "Cart"
   },
   "user": {
     "profile": {
@@ -20,7 +23,9 @@
       "nav": "Store"
     }
   },
-  "about": { "title": "About" },
+  "about": {
+    "title": "About"
+  },
   "page_title": "Shopping",
   "sign_in": "Sign in",
   "sign_up": "Sign up"

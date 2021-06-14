@@ -2,9 +2,9 @@
 
 Esse texto veio de um arquivo markdown.
 
-```nodejs
+```javascript
 function asd(){
-
+  console.log("asd")
 }
 ```
 

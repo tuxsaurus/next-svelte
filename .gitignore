@@ -6,3 +6,5 @@
 .env.build
 
 .vercel
+
+.src/auth_config.js

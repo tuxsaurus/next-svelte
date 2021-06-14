@@ -1,92 +1,94 @@
 <script>
-  import Filter from "./Filter.svelte";
-  import Card from "./Card.svelte";
+  import Filter from "./Filter.svelte"
+  import Card from "./Card.svelte"
+  import LayoutGrid, { Cell } from "@smui/layout-grid/styled"
 
-  import fetchData from "./fetchProducts.js";
+  import fetchData from "./fetchProducts.js"
 
-  let data = fetchData();
+  let data = fetchData()
 
   //console.log(data);
 
   let products = [
     {
-      title: "titlexxx",
+      title: "AAA",
       description: "description",
       text: "bom pra caralho!",
       img: "",
       path: "path",
       info: {},
       price: "25.00",
-      unity: "un",
+      unity: "un"
     },
     {
-      title: "yyy",
+      title: "BBBB",
       description: "description",
       text: "melhor impossivel!",
       img: "",
       path: "path",
       info: {},
       price: "36.00",
-      unity: "kg",
+      unity: "kg"
     },
     {
-      title: "titlexxx",
+      title: "CCC",
       description: "description",
       text: "bom pra caralho!",
       img: "",
       path: "path",
       info: {},
       price: "25.00",
-      unity: "un",
+      unity: "un"
     },
     {
-      title: "yyy",
+      title: "DDDD",
       description: "description",
       text: "melhor impossivel!",
       img: "",
       path: "path",
       info: {},
       price: "36.00",
-      unity: "kg",
+      unity: "kg"
     },
     {
-      title: "titlexxx",
+      title: "EEE",
       description: "description",
       text: "bom pra caralho!",
       img: "",
       path: "path",
       info: {},
       price: "25.00",
-      unity: "un",
+      unity: "un"
     },
     {
-      title: "yyy",
+      title: "FFFF",
       description: "description",
       text: "melhor impossivel!",
       img: "",
       path: "path",
       info: {},
       price: "36.00",
-      unity: "kg",
-    },
-  ];
+      unity: "kg"
+    }
+  ]
 </script>
 
 <div class="productbrowser">
   <h1>ProductBrowser</h1>
   <Filter />
 
-  <div
-    class="grid products-row row row-cols-1 row-cols-md-3 row-cols-xl-4 g-12"
-  >
+  <LayoutGrid class="wtf">
     {#each products as product, i}
-      <Card {...product} />
+      <Cell>
+        <Card {...product} />
+      </Cell>
     {/each}
-  </div>
+  </LayoutGrid>
 </div>
 
 <style lang="scss">
   .productbrowser {
+    width: 100%;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;

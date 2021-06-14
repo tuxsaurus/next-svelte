@@ -1,3 +1,7 @@
 {
-    "workbench.colorTheme": "Cobalt Next Dark",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "i18n-ally.localesPaths": [
+        "public/i18n"
+    ],
+    "i18n-ally.keystyle": "nested",
 }

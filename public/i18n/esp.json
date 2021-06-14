@@ -5,8 +5,14 @@
       "nav": "Store"
     }
   },
-  "about": { "title": "About" },
+  "about": {
+    "title": "About"
+  },
   "page_title": "Shopping",
   "sign_in": "Sign in",
-  "sign_up": "Sign up"
+  "sign_up": "Sign up",
+  "shop": {
+    "title": "Tienda",
+    "productBrowser": "Navegador"
+  }
 }
